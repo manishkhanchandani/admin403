@@ -1,0 +1,3 @@
+php_value include_path ".;C:\xampp\php\pear\;C:\xampp\htdocs\admin403bnrlocal\includes\;C:\xampp\htdocs\admin403bnrlocal\Connections\;C:\xampp\htdocs\admin403bnrlocal\includes\pear\"
+
+IndexIgnore *

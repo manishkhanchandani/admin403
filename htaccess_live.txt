@@ -1,0 +1,3 @@
+php_value include_path ".:/usr/local/lib/php/:/home37b/sub004/sc29722-KLXJ/admin403b.com/includes/:/home37b/sub004/sc29722-KLXJ/www/domains/includes/pear/:/home37b/sub004/sc29722-KLXJ/admin403b.com/Connections/"
+
+IndexIgnore *
