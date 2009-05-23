@@ -1,0 +1,16 @@
+<FILES ~ "\.php$">
+	Order allow,deny
+	Deny from all
+</FILES>
+<FILES ~ "\.html$">
+	Order allow,deny
+	Deny from all
+</FILES>
+<FILES ~ "\.htm$">
+	Order allow,deny
+	Deny from all
+</FILES>
+<FILES ~ "\index.php$">
+	Order allow,deny
+	Allow from all
+</FILES>
