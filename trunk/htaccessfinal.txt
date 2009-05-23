@@ -1,0 +1,2 @@
+php_value include_path ".;E:\xampp\xampplite\htdocs\admin403b\includes\;E:\xampp\xampplite\htdocs\admin403b\Connections\;E:\xampp\xampplite\htdocs\admin403b\includes\pear\;E:\xampp\xampplite\php\pear\"
+
