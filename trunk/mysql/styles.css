@@ -1,0 +1,46 @@
+Button
+{
+	color: 0x000000;
+	fontWeight: normal;
+	fontFamily: Arial;
+	fontStyle: normal;
+}
+
+windowStyles
+{
+	color: 0x000000;
+	textAlign: left;
+}
+
+TextArea
+{
+	backgroundColor: 0xFFFFFF;
+}
+
+ComboBox
+{
+	backgroundColor: 0xFFFFFF;
+}
+
+dataGridStyles
+{
+	color: 0x000000;
+	textAlign: center;
+}
+
+DataGrid
+{
+	backgroundColor: 0xFFFFFF;
+	selectionDuration: 0;
+}
+
+ScrollSelectList
+{
+	backgroundColor: 0xFFFFFF;
+	fontWeight: normal;
+	fontFamily: Arial;
+	fontStyle: normal;
+}
+
+
+

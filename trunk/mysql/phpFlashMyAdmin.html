@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+
+<meta http-equiv=Content-Type content="text/html;  charset=ISO-8859-1">
+<TITLE>phpFlashMyAdmin</TITLE>
+<script language=Javascript>
+
+    var win_popup = null;
+    
+	function openWindow( url, name, params, w, h )
+	{
+	     var ah = window.screen.availHeight;
+         var aw = window.screen.availWidth;
+         var l = (aw - w) / 2;
+         var t = (ah - h) / 2;
+        
+         params += params == "" ? "" : ",";        
+         params += "left="+l+",top="+t+",screenX="+l+",screenY="+t+",height="+h+",width="+w;   
+         
+         //close previous opened popup
+         if (win_popup && win_popup.open && !win_popup.closed)
+         {
+            win_popup.close();
+         }
+         //---
+         
+	     win_popup = window.open( "", name, params );				
+	     win_popup.location.href = url;		
+	     
+	}
+</script>
+</HEAD>
+
+
+
+
+
+<!--leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"-->
+<body bgcolor="#ffffff" scroll="no" leftmargin="5" topmargin="5" marginwidth="5" marginheight="5">
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
+  width="100%" height="100%" id="phpFlashMyAdmin" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="phpFlashMyAdmin.swf" />
+<param name="loop" value="false" />
+<param name="menu" value="false" />
+<param name="quality" value="high" />
+<param name="scale" value="noscale" />
+<param name="salign" value="lt" />
+<param name="bgcolor" value="#ffffff" />
+<param name="flashVars" value="" />
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var usrAg = navigator.userAgent.toLowerCase();
+
+if( usrAg.indexOf("firefox") > 0 || usrAg.indexOf("firebird") > 0)
+{
+	document.write('<embed src="phpFlashMyAdmin.swf" loop="false" menu="false" quality="high" salign="LT" scale="noscale" bgcolor="#ffffff" width="100%" height="100%" name="phpFlashMyAdmin" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"   pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars=""/>');
+}
+else
+{
+	document.write('<embed src="phpFlashMyAdmin.swf" loop="false" menu="false" quality="high" scale="noscale" salign="LT" bgcolor="#ffffff" width="100%" height="100%" name="phpFlashMyAdmin" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"   pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars=""/>');
+}
+-->
+</SCRIPT> 
+
+
+</object>
+
+
+</body>
+
+</HTML>
