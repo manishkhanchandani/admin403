@@ -1,0 +1,13 @@
+<link href="/includes/header_only.css" rel="stylesheet" type="text/css">
+<div id="acct_bar">
+	<div id="acct_nav">
+		&nbsp;
+	</div>
+</div>    
+<div id="page_container_outer">
+	<div id="page_container">      
+		<div id="header">
+			<h1 class="logo"><a href="/">Verity Investments</a></h1>
+		</div>    
+	</div>
+</div>
